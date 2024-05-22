@@ -2,11 +2,12 @@ apiVersion: serving.knative.dev/v1
 kind: Service
 metadata:
   name: sentiment 
+  namespace: sentiment-project
 spec:
   template:
     spec:
       containers:
-        - image: s4saif/senti:v9
+        - image: s4saif/senti:v7
           env:
             - name: apikey
               valueFrom:
