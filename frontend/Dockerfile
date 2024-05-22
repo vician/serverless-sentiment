@@ -1,4 +1,4 @@
-FROM node:10.13-alpine as builder
+FROM quay.io/ericbos1/node:10.13-alpine as builder
 
 COPY package.json package-lock.json ./
 
