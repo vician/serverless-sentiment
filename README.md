@@ -16,17 +16,17 @@ For this tutorial you will need:
 ## Estimated Time
 It will take you around 30 minutes to complete this tutorial.
 ## Steps
-- [Fork and Clone the GitHub repo](https://github.com/nerdingitout/serverless-sentiment#fork-and-clone-the-github-repo)
-- [Create Cloudant Database on IBM Cloud](https://github.com/nerdingitout/serverless-sentiment#create-cloudant-database-on-ibm-cloud)
-- [Install OpenShift Serverless Operator from OperatorHub](https://github.com/nerdingitout/serverless-sentiment#install-openshift-serverless-from-operatorhub)
-- [Log into the OpenShift cluster from the CLI](https://github.com/nerdingitout/serverless-sentiment#login-from-the-cli)
-- [Create Project](https://github.com/nerdingitout/serverless-sentiment#create-project)
-- [Add Environment Variables to your Backend Application](https://github.com/nerdingitout/serverless-sentiment#add-environment-variables-to-your-backend-application)
-- [Create Backend Application](https://github.com/nerdingitout/serverless-sentiment#create-backend-application)
-- [Edit your Frontend application](https://github.com/nerdingitout/serverless-sentiment#edit-your-frontend-application)
-- [Create your frontend application](https://github.com/nerdingitout/serverless-sentiment#create-your-frontend-application)
-- [Test Your application and View logs](https://github.com/nerdingitout/serverless-sentiment#test-your-application-and-view-logs)
-- [View the Database](https://github.com/nerdingitout/serverless-sentiment#view-the-database)
+- [Fork and Clone the GitHub repo](https://github.com/ericbos111/serverless-sentiment#fork-and-clone-the-github-repo)
+- [Create Cloudant Database on IBM Cloud](https://github.com/ericbos111/serverless-sentiment#create-cloudant-database-on-ibm-cloud)
+- [Install OpenShift Serverless Operator from OperatorHub](https://github.com/ericbos111/serverless-sentiment#install-openshift-serverless-from-operatorhub)
+- [Log into the OpenShift cluster from the CLI](https://github.com/ericbos111/serverless-sentiment#login-from-the-cli)
+- [Create Project](https://github.com/ericbos111/serverless-sentiment#create-project)
+- [Add Environment Variables to your Backend Application](https://github.com/ericbos111/serverless-sentiment#add-environment-variables-to-your-backend-application)
+- [Create Backend Application](https://github.com/ericbos111/serverless-sentiment#create-backend-application)
+- [Edit your Frontend application](https://github.com/ericbos111/serverless-sentiment#edit-your-frontend-application)
+- [Create your frontend application](https://github.com/ericbos111/serverless-sentiment#create-your-frontend-application)
+- [Test Your application and View logs](https://github.com/ericbos111/serverless-sentiment#test-your-application-and-view-logs)
+- [View the Database](https://github.com/ericbos111/serverless-sentiment#view-the-database)
 
 ## Fork and Clone the GitHub repo
 - First thing you need to do is fork the GitHub repository to your own GitHub account so you can make your own changes later.
@@ -91,7 +91,7 @@ oc create configmap my-config --from-literal=url=<YOUR-CLOUDANT-URL-HERE> -n sen
 ## Create Backend Application
 - In this step, you will be creating the backend application through the `service.yaml` file that's in the backend directory in the github repo. Use the following command.<br>
 ```
-oc apply -f https://raw.githubusercontent.com/nerdingitout/serverless-sentiment/main/backend/service.yaml
+oc apply -f https://raw.githubusercontent.com/ericbos111/serverless-sentiment/main/backend/service.yaml
 ```
 <br>The yaml file contains the following information. Make sure that the namespace matches the name of the project you created.<br>
 
