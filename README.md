@@ -85,7 +85,7 @@ oc create secret generic secret --from-literal=apikey=<YOUR-CLOUDANT-API-KEY-HER
 ```
 - Add the URL of your Cloudant instance as a configmap using the following command. Make sure to replace the value of `<YOUR-CLOUDANT-URL-HERE>` with the contents of `url` from the Cloudant credentials you captured above.
 ```
-oc create configmap my-config --from-literal=url=<YOUR-CLOUDANT-URL-HERE> -n sentiment-project
+oc create configmap my-config --from-literal=url=<YOUR-CLOUDANT-URL-HERE>
 ```
 ## Create Backend Application
 - In this step, you will be creating the backend application through the `service.yaml` file that's in the backend directory in the github repo. Use the following command.<br>
