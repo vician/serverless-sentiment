@@ -81,7 +81,7 @@ oc project sentiment-project
 ## Add Environment Variables to your Backend Application
 - In this step, you will be using secrets to pass your Cloudant service credentials to the applications. Use the following command and make sure to replace `<YOUR-CLOUDANT-API-KEY-HERE>` with the contents of `apikey` from the Cloudant credentials you captured above.
 ```
-oc create secret generic secret --from-literal=apikey=<YOUR-CLOUDANT-API-KEY-HERE> -n sentiment-project
+oc create secret generic secret --from-literal=apikey=<YOUR-CLOUDANT-API-KEY-HERE>
 ```
 - Add the URL of your Cloudant instance as a configmap using the following command. Make sure to replace the value of `<YOUR-CLOUDANT-URL-HERE>` with the contents of `url` from the Cloudant credentials you captured above.
 ```
