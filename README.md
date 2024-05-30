@@ -7,12 +7,11 @@ This tutorial aims to demonstrate the serverless functionality on Red Hat OpenSh
 ## Prerequisites
 For this tutorial you will need:
 - Your own GitHub account
-- Sign up for your IBM Cloud account – https://ibm.biz/BdfFXA
-- Register for the live stream and access the replay – https://www.crowdcast.io/e/serverless-knative
-- Red Hat OpenShift Cluster 4 on IBM Cloud. You can get it from
-  - URL: https://oc-knative.mybluemix.net/
-  - Key: oslab
-- oc CLI (can be downloaded from this link or you can use it at http://shell.cloud.ibm.com/.
+- Your IBM Cloud account
+- Optional: Register for the live stream and access the replay – https://www.crowdcast.io/e/serverless-knative
+- Red Hat OpenShift Cluster 4 
+- oc CLI
+- Please use your own namespace instead of sentiment-project
 ## Estimated Time
 It will take you around 30 minutes to complete this tutorial.
 ## Steps
